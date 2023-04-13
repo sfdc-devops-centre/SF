@@ -32,6 +32,12 @@
             <targetReference>End</targetReference>
         </connector>
         <inputAssignments>
+            <field>Landmark__c</field>
+            <value>
+                <elementReference>Nearby_Landmark</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Patient_Address__c</field>
             <value>
                 <elementReference>Address</elementReference>
@@ -108,6 +114,13 @@
             <name>Summary</name>
             <dataType>String</dataType>
             <fieldText>Summary</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Nearby_Landmark</name>
+            <dataType>String</dataType>
+            <fieldText>Nearby Landmark</fieldText>
             <fieldType>InputField</fieldType>
             <isRequired>false</isRequired>
         </fields>
