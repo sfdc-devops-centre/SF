@@ -1,0 +1,13 @@
+<aura:component>
+    <aura:attribute name="welcome" type="String" default="Hey, Welcome to SalesforceBlue :)" />
+
+    <lightning:card title="AwesomeAuraComponent">
+        <aura:set attribute="actions">
+            <lightning:button label="Click Me!" onclick = "{!c.greetings}"/>
+        </aura:set>
+
+        <p class="slds-p-horizontal_small" aura:id = "p1">
+            <p>{!v.welcome}</p>
+        </p>
+    </lightning:card>
+</aura:component>
