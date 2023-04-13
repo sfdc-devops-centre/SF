@@ -1,5 +1,3 @@
-public with sharing class SampleApexTest {
-    public SampleApexTest() {
+public class SampleApexTest {
 
-    }
 }
