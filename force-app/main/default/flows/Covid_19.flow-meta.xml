@@ -32,6 +32,12 @@
             <targetReference>End</targetReference>
         </connector>
         <inputAssignments>
+            <field>HID_Card_Number__c</field>
+            <value>
+                <elementReference>HID_Number</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Landmark__c</field>
             <value>
                 <elementReference>Nearby_Landmark</elementReference>
@@ -109,6 +115,14 @@
             <fieldText>Phone Number</fieldText>
             <fieldType>InputField</fieldType>
             <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>HID_Number</name>
+            <dataType>Number</dataType>
+            <fieldText>HID Number</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
         </fields>
         <fields>
             <name>Summary</name>

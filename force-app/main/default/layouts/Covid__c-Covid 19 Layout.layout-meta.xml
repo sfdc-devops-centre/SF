@@ -34,6 +34,10 @@
                 <behavior>Edit</behavior>
                 <field>Landmark__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>HID_Card_Number__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
