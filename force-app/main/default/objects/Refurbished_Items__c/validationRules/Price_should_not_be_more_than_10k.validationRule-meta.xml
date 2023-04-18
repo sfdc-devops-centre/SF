@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_should_not_be_more_than_10k</fullName>
+    <active>true</active>
+    <description>Make sure price should not exceed more than 10,000.</description>
+    <errorConditionFormula>Price__c  &gt; 10000</errorConditionFormula>
+    <errorDisplayField>Price__c</errorDisplayField>
+    <errorMessage>Pricing cannot exceed more than 10k.</errorMessage>
+</ValidationRule>
