@@ -4,9 +4,7 @@
 
 package.xml
 
-
-#profiles
-**/profiles/*
+**profile
 
 
 # LWC configuration files
