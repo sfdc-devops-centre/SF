@@ -4,8 +4,7 @@
 
 package.xml
 
-**profile
-
+force-app/main/default/profiles/sg mngr.profile-meta.xml
 
 # LWC configuration files
 **/jsconfig.json
