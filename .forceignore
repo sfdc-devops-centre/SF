@@ -5,7 +5,7 @@
 package.xml
 
 # Ignore profiles
-force-app/main/default/profiles
+*.profile
 
 
 # LWC configuration files
