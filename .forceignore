@@ -6,7 +6,8 @@ package.xml
 
 
 #profiles
-**/Profiles/*
+**Profiles
+**/Profiles
 
 # LWC configuration files
 **/jsconfig.json
