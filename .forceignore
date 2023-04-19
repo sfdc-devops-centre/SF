@@ -3,8 +3,8 @@
 #
 
 package.xml
-Admin
-Read Only
+force-app/main/default/profiles/Admin
+force-app/main/default/profiles/Read Only
 
 # LWC configuration files
 **/jsconfig.json
