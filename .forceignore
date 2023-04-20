@@ -4,9 +4,29 @@
 
 package.xml
 
-# Ignore profiles
-*.profile
+# These metadata files are ignored when promoting (deploying)
+**/appMenus/**
+**/appSwitcher/**
+**/fieldRestrictionRules/**
+**/objectTranslations/**
+**/profiles/**
+**/profilePasswordPolicy/**
+**/profileSessionSetting/**
+**/settings/**
+**/sharingRules/**
+**/AuthProvider/**
 
+# These metadata files are ignored when pulling (retrieving)
+*.settings
+*.appMenu
+*.appSwitcher
+*.rule
+*.objectTranslation
+*.profile
+*.profilePasswordPolicy
+*.profileSessionSetting
+*.sharingRules
+*.AuthProvider
 
 # LWC configuration files
 **/jsconfig.json
