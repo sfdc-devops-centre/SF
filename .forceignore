@@ -4,7 +4,6 @@
 
 package.xml
 
-
 # These metadata files are ignored when promoting (deploying)
 **/appMenus/**
 **/appSwitcher/**
